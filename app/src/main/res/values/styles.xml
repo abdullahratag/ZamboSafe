@@ -1,0 +1,53 @@
+<resources>
+    <!-- ===== Text styles. Change font size / weight here, not in each layout. ===== -->
+    <style name="ZamboSafe.Text.Title" parent="">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/zs_tertiary</item>
+    </style>
+
+    <style name="ZamboSafe.Text.Subtitle" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/zs_secondary</item>
+    </style>
+
+    <style name="ZamboSafe.Text.CardTitle" parent="">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/zs_tertiary</item>
+    </style>
+
+    <style name="ZamboSafe.Text.Body" parent="">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/zs_tertiary</item>
+    </style>
+
+    <style name="ZamboSafe.Text.Caption" parent="">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">@color/zs_secondary</item>
+    </style>
+
+    <!-- ===== Card ===== -->
+    <style name="ZamboSafe.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/zs_primary</item>
+        <item name="strokeColor">@color/zs_secondary</item>
+        <item name="strokeWidth">@dimen/card_stroke</item>
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!-- ===== Card buttons. Width/weight/margins are set in item_agency.xml. ===== -->
+    <style name="ZamboSafe.Button.Filled" parent="Widget.Material3.Button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="ZamboSafe.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textSize">13sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Spacing scale used across layouts. Tweak here to make the whole app tighter/looser. -->
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">24dp</dimen>
+
+    <dimen name="card_corner">12dp</dimen>
+    <dimen name="card_stroke">1dp</dimen>
+
+    <!-- Half of the gap between the card buttons (each button has this margin on both sides). -->
+    <dimen name="button_gap">4dp</dimen>
+</resources>

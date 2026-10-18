@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        ZamboSafe palette (LIGHT mode). Change colors HERE (and in values-night/colors.xml).
+        Everything else in the app references these three names via the theme.
+
+        zs_primary   = backgrounds / card surfaces
+        zs_secondary = borders, hints, small labels
+        zs_tertiary  = main text, filled buttons, selected chips
+    -->
+    <color name="zs_primary">#EEEEEE</color>   <!-- RGB 238, 238, 238 -->
+    <color name="zs_secondary">#828282</color> <!-- RGB 130, 130, 130 -->
+    <color name="zs_tertiary">#111111</color>  <!-- RGB 17, 17, 17 -->
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

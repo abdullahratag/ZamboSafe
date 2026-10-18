@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    One agency card. The three buttons are hidden automatically (in AgencyAdapter)
+    when the agency has no phone / Facebook / website.
+-->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ZamboSafe.Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/space_md"
+    android:layout_marginEnd="@dimen/space_md"
+    android:layout_marginBottom="@dimen/space_sm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/space_md">
+
+        <TextView
+            android:id="@+id/categoryText"
+            style="@style/ZamboSafe.Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/nameText"
+            style="@style/ZamboSafe.Text.CardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs" />
+
+        <TextView
+            android:id="@+id/locationText"
+            style="@style/ZamboSafe.Text.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs" />
+
+        <TextView
+            android:id="@+id/phoneText"
+            style="@style/ZamboSafe.Text.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs"
+            android:textStyle="bold" />
+
+        <!-- Button row. Negative margin cancels the buttons' own side margins so edges line up. -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="@dimen/space_md"
+            android:layout_marginEnd="-4dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/callButton"
+                style="@style/ZamboSafe.Button.Filled"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_gap"
+                android:layout_marginEnd="@dimen/button_gap"
+                android:layout_weight="1"
+                android:text="@string/action_call" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/facebookButton"
+                style="@style/ZamboSafe.Button.Outlined"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_gap"
+                android:layout_marginEnd="@dimen/button_gap"
+                android:layout_weight="1"
+                android:text="@string/action_facebook" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/websiteButton"
+                style="@style/ZamboSafe.Button.Outlined"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_gap"
+                android:layout_marginEnd="@dimen/button_gap"
+                android:layout_weight="1"
+                android:text="@string/action_website" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

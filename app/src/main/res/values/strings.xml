@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ZamboSafe</string>
+    <string name="app_tagline">Zamboanga City Emergency Directory</string>
+
+    <string name="search_hint">Search agency, place, or number</string>
+    <string name="category_all">All</string>
+    <string name="empty_results">No matching agencies found.</string>
+
+    <string name="action_call">Call</string>
+    <string name="action_facebook">Facebook</string>
+    <string name="action_website">Website</string>
+
+    <string name="error_no_app">No app available to open this.</string>
+</resources>

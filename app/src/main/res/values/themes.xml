@@ -1,0 +1,31 @@
+<resources>
+    <!--
+        Maps the three ZamboSafe colors onto Material 3 roles.
+        Works for light AND dark: the colors themselves change in values-night/colors.xml.
+    -->
+    <style name="Base.Theme.ZamboSafe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Filled buttons: tertiary background, primary text -->
+        <item name="colorPrimary">@color/zs_tertiary</item>
+        <item name="colorOnPrimary">@color/zs_primary</item>
+
+        <item name="colorSecondary">@color/zs_secondary</item>
+        <item name="colorOnSecondary">@color/zs_primary</item>
+
+        <!-- Selected category chip: inverted (tertiary background, primary text) -->
+        <item name="colorSecondaryContainer">@color/zs_tertiary</item>
+        <item name="colorOnSecondaryContainer">@color/zs_primary</item>
+
+        <!-- Backgrounds and text -->
+        <item name="android:colorBackground">@color/zs_primary</item>
+        <item name="colorSurface">@color/zs_primary</item>
+        <item name="colorOnBackground">@color/zs_tertiary</item>
+        <item name="colorOnSurface">@color/zs_tertiary</item>
+        <item name="colorOnSurfaceVariant">@color/zs_secondary</item>
+
+        <!-- Borders (cards, outlined buttons, search box, chips) -->
+        <item name="colorOutline">@color/zs_secondary</item>
+        <item name="colorOutlineVariant">@color/zs_secondary</item>
+    </style>
+
+    <style name="Theme.ZamboSafe" parent="Base.Theme.ZamboSafe" />
+</resources>

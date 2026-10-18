@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DARK mode overrides: primary and tertiary swap. Secondary was not specified, so it stays the same gray. -->
+    <color name="zs_primary">#111111</color>   <!-- RGB 17, 17, 17 -->
+    <color name="zs_secondary">#828282</color> <!-- RGB 130, 130, 130 -->
+    <color name="zs_tertiary">#EEEEEE</color>  <!-- RGB 238, 238, 238 -->
+</resources>
