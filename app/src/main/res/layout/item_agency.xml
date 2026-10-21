@@ -38,6 +38,14 @@
             android:layout_marginTop="@dimen/space_xs" />
 
         <TextView
+            android:id="@+id/notesText"
+            style="@style/ZamboSafe.Text.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs"
+            android:visibility="gone" />
+
+        <TextView
             android:id="@+id/phoneText"
             style="@style/ZamboSafe.Text.Body"
             android:layout_width="match_parent"

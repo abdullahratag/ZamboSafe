@@ -38,7 +38,8 @@ object AgencyRepository {
         location = o.optNonBlank("location") ?: "",
         phone = o.optNonBlank("phone"),
         facebookUrl = o.optNonBlank("facebook"),
-        websiteUrl = o.optNonBlank("website")
+        websiteUrl = o.optNonBlank("website"),
+        notes = o.optNonBlank("notes")
     )
 
     // Missing key, JSON null and "" are all treated as "not provided".

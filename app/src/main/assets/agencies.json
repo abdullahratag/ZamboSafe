@@ -1,83 +1,78 @@
 [
   {
     "id": "police-1",
-    "name": "Sample Police Station 1",
+    "name": "Zamboanga City Police Office",
     "category": "Police",
-    "location": "Tetuan, Zamboanga City",
-    "phone": "0000-000-0001",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
-    "website": "https://example.com"
-  },
-  {
-    "id": "police-2",
-    "name": "Sample Police Station 2",
-    "category": "Police",
-    "location": "Pasonanca, Zamboanga City",
-    "phone": "0000-000-0002",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
+    "location": "Zamboanga City",
+    "phone": "0977-855-8138",
+    "facebook": "https://www.facebook.com/zcpopro9",
     "website": null
   },
   {
     "id": "fire-1",
-    "name": "Sample Fire Station 1",
+    "name": "Zamboanga City Fire District",
     "category": "Fire",
-    "location": "Tetuan, Zamboanga City",
-    "phone": "0000-000-0003",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
-    "website": "https://example.com"
-  },
-  {
-    "id": "fire-2",
-    "name": "Sample Fire Sub-Station",
-    "category": "Fire",
-    "location": "Ayala, Zamboanga City",
-    "phone": "0000-000-0004",
-    "facebook": null,
+    "location": "Mayor Climaco Avenue, Zamboanga City",
+    "phone": "0955-781-6063",
+    "facebook": "https://www.facebook.com/BFPR9ZCFireDistrict",
     "website": null
   },
   {
     "id": "medical-1",
-    "name": "Sample City Hospital",
+    "name": "Ciudad Medical Zamboanga",
     "category": "Medical",
-    "location": "Zamboanga City",
-    "phone": "0000-000-0005",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
-    "website": "https://example.com"
+    "location": "Mayor Vitaliano Agan Avenue, Zamboanga City",
+    "phone": "0917-854-6329",
+    "facebook": "https://www.facebook.com/CiudadMedicalZamboangaZPHI",
+    "website": "https://ciudadmedicalzamboanga.com.ph/",
+    "notes": "General hospital hotline"
   },
   {
     "id": "medical-2",
-    "name": "Sample Red Cross Chapter",
+    "name": "Zamboanga City Medical Center",
+    "category": "Medical",
+    "location": "Dr. Evangelista Street, Sta. Catalina, Zamboanga City",
+    "phone": "0915-536-5583",
+    "facebook": "https://www.facebook.com/zcmcdoh9",
+    "website": "https://zcmc.doh.gov.ph/",
+    "notes": "General hospital contact; calls only"
+  },
+  {
+    "id": "medical-3",
+    "name": "Philippine Red Cross - Zamboanga City Chapter Safety Services",
     "category": "Medical",
     "location": "Zamboanga City",
-    "phone": "0000-000-0006",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
-    "website": null
+    "phone": "(062) 993-7048",
+    "facebook": "https://www.facebook.com/profile.php?id=61557589951820",
+    "website": "https://redcross.org.ph/",
+    "notes": "Safety Services"
   },
   {
     "id": "disaster-1",
-    "name": "Sample Disaster Risk Reduction Office",
+    "name": "Zamboanga City Disaster Risk Reduction and Management Office",
     "category": "Disaster Risk",
     "location": "Zamboanga City",
-    "phone": "0000-000-0007",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
-    "website": "https://example.com"
+    "phone": "(062) 955-9601",
+    "facebook": "https://www.facebook.com/zcdrrmo",
+    "website": "https://zamboangacity.gov.ph/office-of-the-city-disaster-risk-deduction-management/"
   },
   {
     "id": "utilities-1",
-    "name": "Sample Electric Utility Hotline",
+    "name": "ZAMCELCO",
     "category": "Utilities",
-    "location": "Zamboanga City",
-    "phone": "0000-000-0008",
-    "facebook": "https://www.facebook.com/PLACEHOLDER",
-    "website": "https://example.com"
+    "location": "MCLL Highway, Putik, Zamboanga City",
+    "phone": "0917-307-1412",
+    "facebook": "https://facebook.com/ZAMCELCOPage",
+    "website": "https://www.zamcelco.com.ph"
   },
   {
     "id": "utilities-2",
-    "name": "Sample Water District Hotline",
+    "name": "ZCWD Customer Care",
     "category": "Utilities",
     "location": "Zamboanga City",
-    "phone": "0000-000-0009",
-    "facebook": null,
-    "website": "https://example.com"
+    "phone": "0917-118-5550",
+    "facebook": "https://www.facebook.com/zcwdcustomercare",
+    "website": "https://zcwd.gov.ph/",
+    "notes": "Monday-Friday, 8:00 AM-5:00 PM only"
   }
 ]

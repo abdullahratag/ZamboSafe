@@ -13,7 +13,8 @@ data class Agency(
     val location: String,
     val phone: String?,
     val facebookUrl: String?,
-    val websiteUrl: String?
+    val websiteUrl: String?,
+    val notes: String? = null
 ) {
     /**
      * Search rule used by the keyword filter. Case-insensitive; matches if the

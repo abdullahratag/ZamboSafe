@@ -23,6 +23,8 @@ class AgencyAdapter : ListAdapter<Agency, AgencyAdapter.ViewHolder>(DiffCallback
         val callButton: MaterialButton = view.findViewById(R.id.callButton)
         val facebookButton: MaterialButton = view.findViewById(R.id.facebookButton)
         val websiteButton: MaterialButton = view.findViewById(R.id.websiteButton)
+
+        val notes: TextView = view.findViewById(R.id.notesText)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -33,6 +35,9 @@ class AgencyAdapter : ListAdapter<Agency, AgencyAdapter.ViewHolder>(DiffCallback
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val agency = getItem(position)
         val context = holder.itemView.context
+        holder.notes.text = agency.notes
+        holder.notes.visibility =
+            if (agency.notes.isNullOrBlank()) View.GONE else View.VISIBLE
 
         holder.category.text = agency.category.uppercase()
         holder.name.text = agency.name
