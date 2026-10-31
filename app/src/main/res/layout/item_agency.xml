@@ -14,41 +14,65 @@
         android:orientation="vertical"
         android:padding="@dimen/space_md">
 
-        <TextView
-            android:id="@+id/categoryText"
-            style="@style/ZamboSafe.Text.Caption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/nameText"
-            style="@style/ZamboSafe.Text.CardTitle"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/space_xs" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/locationText"
-            style="@style/ZamboSafe.Text.Body"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/space_xs" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/notesText"
-            style="@style/ZamboSafe.Text.Body"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/space_xs"
-            android:visibility="gone" />
+            <com.example.zambosafe.ui.OutlineTextView
+                android:id="@+id/categoryText"
+                style="@style/ZamboSafe.Text.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-        <TextView
-            android:id="@+id/phoneText"
-            style="@style/ZamboSafe.Text.Body"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/space_xs"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/nameText"
+                style="@style/ZamboSafe.Text.CardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_xs" />
+
+            <TextView
+                android:id="@+id/locationText"
+                style="@style/ZamboSafe.Text.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_xs" />
+
+            <TextView
+                android:id="@+id/notesText"
+                style="@style/ZamboSafe.Text.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_xs"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/phoneText"
+                style="@style/ZamboSafe.Text.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_xs"
+                android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/agencyImage"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="@dimen/space_sm"
+                android:background="@drawable/bg_agency_image"
+                android:contentDescription="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder_agency_image" />
+        </LinearLayout>
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,6 +81,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/callButton"
                 style="@style/ZamboSafe.Button.Filled"
+                app:backgroundTint="@color/btn_call"
+                android:textColor="@color/btn_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="0dp"
@@ -71,6 +97,9 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/facebookButton"
                 style="@style/ZamboSafe.Button.Outlined"
+                app:backgroundTint="@color/btn_facebook"
+                app:strokeWidth="0dp"
+                android:textColor="@color/btn_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="0dp"
@@ -85,6 +114,9 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/websiteButton"
                 style="@style/ZamboSafe.Button.Outlined"
+                app:backgroundTint="@color/btn_website"
+                app:strokeWidth="0dp"
+                android:textColor="@color/btn_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="0dp"

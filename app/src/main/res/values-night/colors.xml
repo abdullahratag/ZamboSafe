@@ -4,4 +4,13 @@
     <color name="zs_primary">#111111</color>   <!-- RGB 17, 17, 17 -->
     <color name="zs_secondary">#828282</color> <!-- RGB 130, 130, 130 -->
     <color name="zs_tertiary">#EEEEEE</color>  <!-- RGB 238, 238, 238 -->
+
+    <!-- Accent colors: category tags (DARK mode: lighter shades for contrast) -->
+    <color name="tag_red">#EF5350</color>
+    <color name="tag_blue">#64B5F6</color>
+    <color name="tag_orange">#FF9800</color>
+    <color name="tag_yellow">#FFD600</color>
+    <color name="tag_outline">#FF000000</color>
+    <color name="tag_green">#66BB6A</color>
+    <color name="action_hint_bg">#424242</color>
 </resources>

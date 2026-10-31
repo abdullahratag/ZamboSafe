@@ -11,4 +11,10 @@
     <string name="action_website">Website</string>
 
     <string name="error_no_app">No app available to open this.</string>
+
+    <string name="confirm_call">Are you sure you wish to call %1$s?</string>
+    <string name="confirm_facebook">Are you sure you wish to open the Facebook page of %1$s?</string>
+    <string name="confirm_website">Are you sure you wish to open the website of %1$s?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_cancel">Cancel</string>
 </resources>

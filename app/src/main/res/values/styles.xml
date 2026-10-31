@@ -29,6 +29,11 @@
         <item name="android:textColor">@color/zs_secondary</item>
     </style>
 
+    <style name="ZamboSafe.Text.ActionHint" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/btn_text</item>
+    </style>
+
     <!-- ===== Card ===== -->
     <style name="ZamboSafe.Card" parent="Widget.Material3.CardView.Outlined">
         <item name="cardBackgroundColor">@color/zs_primary</item>
